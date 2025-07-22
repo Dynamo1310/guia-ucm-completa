@@ -246,8 +246,6 @@ function agregarNuevoHeroe() {
   }
 }
 
-// No ejecutar el menú automáticamente al cargar la página
-// El usuario ahora puede usar los botones en la interfaz
 console.log('🎬📺 Guía UCM Completa cargada ✅');
 console.log(`📊 Total de proyectos: ${proyectos.length}`);
 console.log(`🎬 Películas: ${proyectos.filter(p => p.tipo === 'película').length}`);
